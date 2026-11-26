@@ -1,4 +1,4 @@
-const API_BASE_URL = "http://localhost:8000"; // Replace with your HTTPS backend URL when deployed.
+const API_BASE_URL = "https://jarvis-ai-api-beon.onrender.com";
 const form = document.querySelector("#chat-form");
 const input = document.querySelector("#message");
 const messages = document.querySelector("#messages");
