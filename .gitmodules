@@ -1,0 +1,3 @@
+[submodule "vendor/ECC"]
+	path = vendor/ECC
+	url = https://github.com/affaan-m/ECC.git
