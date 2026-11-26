@@ -14,3 +14,11 @@ services:
         value: gemini-2.5-flash
       - key: AI_API_KEY
         sync: false
+
+  - type: web
+    name: jarvis-ai-frontend
+    runtime: static
+    plan: free
+    rootDir: frontend
+    buildCommand: echo "Publishing static JARVIS frontend"
+    staticPublishPath: .
